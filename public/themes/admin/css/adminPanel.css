@@ -1,0 +1,181 @@
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;
+  z-index: 2;
+}
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
+}
+
+.btn-facebook {
+  background-color: #405d9d;
+  color: #fff;
+}
+.btn-twitter {
+  background-color: #42aeec;
+  color: #fff;
+}
+
+/*Css for sign in form*/
+
+body {
+  background: #eee !important;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.form-signin-heading,
+.checkbox {
+  margin-bottom: 30px;
+}
+
+.checkbox {
+  font-weight: normal;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*Style for Admin Table(admins.php)*/
+.adminTable,
+.productTable .table tr td,
+th {
+  vertical-align: middle !important;
+  table-layout: fixed;
+  text-overflow: ellipsis;
+}
+.adminTable .table #id {
+  width: 5%;
+}
+.adminTable .table #name {
+  width: 15%;
+}
+.adminTable .table #email {
+  width: 15%;
+}
+.adminTable .table #pass {
+  width: 10%;
+}
+.adminTable .table #phone {
+  width: 15%;
+}
+.adminTable .table #createdDate {
+  width: 15%;
+}
+.adminTable .table #modifiedDate {
+  width: 15%;
+}
+.adminTable .table #action {
+  width: 10%;
+}
+/*Style for admin information view(view.php)*/
+.inf-content {
+  border: 1px solid #dddddd;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+/******** Product Table CSS *********/
+.productTable tr #id {
+  width: 5%;
+}
+.productTable tr #title {
+  width: 10%;
+}
+.productTable tr #picture {
+  width: 5%;
+}
+.productTable tr #mrp {
+  width: 5%;
+}
+.productTable tr #short_description {
+  width: 15%;
+}
+.productTable tr #description {
+  width: 25%;
+}
+.productTable tr #color {
+  width: 5%;
+}
+.productTable tr #size {
+  width: 5%;
+}
+.productTable tr #created_at {
+  width: 5%;
+}
+.productTable tr #modifies_at {
+  width: 5%;
+}
+.productTable tr #action {
+  width: 15%;
+}
+/******** //Product Table CSS *********/
+
+/*********** Slider CSS **********/
+.top-nav nav ul li a#user {
+  cursor: pointer;
+}
+
+/*Style for slider table(slider.php)*/
+.sliderTable .table tr td {
+  vertical-align: middle !important;
+  table-layout: fixed;
+  text-overflow: ellipsis;
+}
+.sliderTable .table #id {
+  width: 10%;
+}
+.sliderTable .table #title {
+  width: 30%;
+}
+.sliderTable .table #image {
+  width: 30%;
+}
+.sliderTable .table #action {
+  width: 30%;
+}
+
+/*Style for slider information view(view.php)*/
+.inf-content {
+  border: 1px solid #dddddd;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+/*********** //Slider CSS **********/
